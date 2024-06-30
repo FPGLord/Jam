@@ -53,6 +53,7 @@
     <Compile Include="Assets\Scripts\GlobalEventHandler.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\CollisionTrigger.cs" />
+    <Compile Include="Assets\Scripts\GamePause.cs" />
     <Compile Include="Assets\Scripts\BucketMover.cs" />
     <Compile Include="Assets\Scripts\PointsCounter.cs" />
     <Compile Include="Assets\Scripts\GlobalEvent.cs" />
