@@ -7,8 +7,7 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     [SerializeField] private float _timeStart;
-    //[SerializeField] private Text _timerText;
-    [SerializeField] private TextMeshPro _timerText;
+   [SerializeField] private TextMeshProUGUI _timerText;
     [SerializeField] private GameObject _panel;
 
     
