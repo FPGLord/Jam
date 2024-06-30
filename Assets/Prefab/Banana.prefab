@@ -68,7 +68,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.21307659, y: 0.1355964}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -79,7 +79,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 12.661213, y: 8.167194}
   m_EdgeRadius: 0
 --- !u!50 &4558900261263298671
 Rigidbody2D:
@@ -123,7 +123,7 @@ MonoBehaviour:
   _onTrigger:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -6806170650412847641, guid: 9cd5723767d5ecb499858617681bd3c5, type: 3}
+      - m_Target: {fileID: 2046921369509758749}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
