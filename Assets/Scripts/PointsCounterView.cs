@@ -5,7 +5,9 @@ using UnityEngine;
 public class PointsCounterView : MonoBehaviour
 {
     [SerializeField] private PointsCounter _pointsCounter;
-    [SerializeField] private TextMeshProUGUI _textView;
+   // [SerializeField] private TextMeshProUGUI _textView;
+    [SerializeField] private TextMeshPro _textView;
+    
 
     private void OnEnable()
     {
