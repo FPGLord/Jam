@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb53120413f430542941bb5462bf5c37, type: 3}
   m_Name: Apple
   m_EditorClassIdentifier: 
-  _gameObject: {fileID: 6970318302661755736, guid: 9cd5723767d5ecb499858617681bd3c5, type: 3}
-  _points: 10
-  _reduceTimePerSeconds: 0
-  _spawnChance: 1
+  <sprite>k__BackingField: {fileID: 21300000, guid: 3b8748efa3370484a958e091bc563bf7, type: 3}
+  <points>k__BackingField: 0
+  <fallSpeed>k__BackingField: 3
+  <spawnChance>k__BackingField: 0

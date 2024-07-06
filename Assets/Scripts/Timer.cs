@@ -7,11 +7,10 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     [SerializeField] private float _timeStart;
-   [SerializeField] private TextMeshProUGUI _timerText;
+    [SerializeField] private TextMeshProUGUI _timerText;
     [SerializeField] private GameObject _panel;
 
-    
-    
+
     public float TimeStart
     {
         get => _timeStart;
@@ -33,7 +32,7 @@ public class Timer : MonoBehaviour
     public void PauseGame()
     {
         Time.timeScale = 0;
-        PlayerPrefs.SetFloat("currentTimer",_timeStart);
+        PlayerPrefs.SetFloat("currentTimer", _timeStart);
     }
 
     public void ResumeGame()

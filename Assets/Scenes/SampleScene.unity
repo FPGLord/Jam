@@ -2629,6 +2629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minXPosition: -375
   _maxXPosition: 368
+  _rigidbody: {fileID: 1050789525}
 --- !u!114 &1050789524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4015,9 +4016,9 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1645389422}
-        m_TargetAssemblyTypeName: GamePause, Assembly-CSharp
-        m_MethodName: PauseGame
-        m_Mode: 1
+        m_TargetAssemblyTypeName: TimeScaleSetter, Assembly-CSharp
+        m_MethodName: Set
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4460,7 +4461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pointsCounter: {fileID: 11400000, guid: 0f31a104de36f984eb6f36b167c40a5e, type: 2}
-  _timer: {fileID: 0}
+  _timer: {fileID: 1381464884}
 --- !u!114 &2038895058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4634,11 +4635,12 @@ MonoBehaviour:
   - {fileID: 45347730}
   - {fileID: 1398512965}
   - {fileID: 1029721796}
-  _gameObjects:
+  _data:
   - {fileID: 11400000, guid: dff95a49eca8f36469ca3e36dffa2d08, type: 2}
   - {fileID: 11400000, guid: feb01998f13c23e4e80718124cd2d1e8, type: 2}
   - {fileID: 11400000, guid: 106636d4486957d4294ead4d9be62d45, type: 2}
-  _viewPrefab: {fileID: 6861160257241338125, guid: 4cd948ae6ea1e1849b3b40ac5eb6b531, type: 3}
+  - {fileID: 11400000, guid: af318279660ab5343ae8301229d7d703, type: 2}
+  _viewPrefab: {fileID: 3903132098901272193, guid: 4cd948ae6ea1e1849b3b40ac5eb6b531, type: 3}
 --- !u!1 &2138066739
 GameObject:
   m_ObjectHideFlags: 0
@@ -4747,13 +4749,13 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2138066744}
-        m_TargetAssemblyTypeName: GamePause, Assembly-CSharp
-        m_MethodName: ResumeGame
-        m_Mode: 1
+        m_TargetAssemblyTypeName: TimeScaleSetter, Assembly-CSharp
+        m_MethodName: Set
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

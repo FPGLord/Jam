@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb53120413f430542941bb5462bf5c37, type: 3}
-  m_Name: Orange
+  m_Name: Ananas
   m_EditorClassIdentifier: 
-  <sprite>k__BackingField: {fileID: 21300000, guid: 54b4d11d5e806944f9c0b46e4b29d39a, type: 3}
+  <sprite>k__BackingField: {fileID: 21300000, guid: cb7bc2065d9a4c74fac9bbf9c6de2a92, type: 3}
   <points>k__BackingField: 0
-  <fallSpeed>k__BackingField: 15
+  <fallSpeed>k__BackingField: 6
   <spawnChance>k__BackingField: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb53120413f430542941bb5462bf5c37, type: 3}
   m_Name: Bomb
   m_EditorClassIdentifier: 
-  _gameObject: {fileID: 4898705700639318576, guid: 9a8d15eda6dc81c4aaeb6f0c6c7e5983, type: 3}
-  _points: -10
-  _reduceTimePerSeconds: 10
-  _spawnChance: 0.5
+  <sprite>k__BackingField: {fileID: 21300000, guid: 8ffcb0703d045de478bc4cce85575409, type: 3}
+  <points>k__BackingField: 0
+  <fallSpeed>k__BackingField: 10
+  <spawnChance>k__BackingField: 0
