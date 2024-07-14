@@ -11,3 +11,13 @@ public class GlobalEvent : ScriptableObject
         OnInvoke.Invoke();
     }
 }
+
+public class GlobalEvent<T> : ScriptableObject
+{
+    public UnityEvent<T> OnInvoke;
+    
+    public void Invoke(T parameter)
+    {
+        OnInvoke.Invoke(parameter);
+    }
+}

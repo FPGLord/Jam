@@ -1,0 +1,56 @@
+{
+    "name": "Keybord Controls",
+    "maps": [
+        {
+            "name": "Bucket",
+            "id": "bd676006-5ec5-4d40-9ea8-3fd71582df2a",
+            "actions": [
+                {
+                    "name": "Mover",
+                    "type": "Value",
+                    "id": "8b21eb2c-b44e-4f61-9840-22c7f7ef037b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "166d058b-3ed2-4742-bf9a-93bd15efdfef",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mover",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "6de830be-0f5d-484f-be50-b7fcf21f52fb",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mover",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "20616587-9df1-45ab-9567-3c5b363cb820",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mover",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

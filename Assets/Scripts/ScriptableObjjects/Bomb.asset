@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <sprite>k__BackingField: {fileID: 21300000, guid: 8ffcb0703d045de478bc4cce85575409, type: 3}
   <points>k__BackingField: 0
-  <fallSpeed>k__BackingField: 10
-  <spawnChance>k__BackingField: 0
+  <fallSpeed>k__BackingField: 23
+  <spawnChance>k__BackingField: 11
+  <interactable>k__BackingField: 1

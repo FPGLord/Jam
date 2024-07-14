@@ -45,10 +45,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.35f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Bomb.cs" />
     <Compile Include="Assets\Scripts\MixerGroupVolumeSetter.cs" />
     <Compile Include="Assets\Scripts\TimeScaleSetter.cs" />
     <Compile Include="Assets\Scripts\View.cs" />
+    <Compile Include="Assets\Scripts\GlobalVector3Event.cs" />
     <Compile Include="Assets\Scripts\SliderValueSetter.cs" />
     <Compile Include="Assets\Scripts\GameRestart.cs" />
     <Compile Include="Assets\Scripts\AudioClipGlabalEventHandler.cs" />
@@ -63,6 +63,8 @@
     <Compile Include="Assets\Scripts\GameExit.cs" />
     <Compile Include="Assets\Scripts\Data.cs" />
     <Compile Include="Assets\Scripts\PointsCounterView.cs" />
+    <Compile Include="Assets\Keybord Controls.cs" />
+    <Compile Include="Assets\Scripts\BombInteract.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

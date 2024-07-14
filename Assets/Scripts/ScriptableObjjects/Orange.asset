@@ -15,4 +15,4 @@ MonoBehaviour:
   <sprite>k__BackingField: {fileID: 21300000, guid: 54b4d11d5e806944f9c0b46e4b29d39a, type: 3}
   <points>k__BackingField: 0
   <fallSpeed>k__BackingField: 15
-  <spawnChance>k__BackingField: 0
+  <spawnChance>k__BackingField: 10

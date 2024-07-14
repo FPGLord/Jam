@@ -923,7 +923,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -14.299359, y: 0}
+  m_Offset: {x: -125.552605, y: -0.00062704086}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -934,7 +934,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 29.598719, y: 1}
+  m_Size: {x: 273.29633, y: 1.0062702}
   m_EdgeRadius: 0
 --- !u!212 &334508102
 SpriteRenderer:
@@ -1543,6 +1543,66 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 19.173105, y: 6.35433}
   m_EdgeRadius: 0
+--- !u!1 &655453722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 655453723}
+  - component: {fileID: 655453724}
+  m_Layer: 0
+  m_Name: OnBombClick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &655453723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655453722}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 765133980}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &655453724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655453722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d82a2595f1a1d488ffaf1c5519cc17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalEvent: {fileID: 11400000, guid: da6e40674f1e2ae43904c8312e0846af, type: 2}
+  _OnInvoke:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1050789523}
+        m_TargetAssemblyTypeName: BucketMover, Assembly-CSharp
+        m_MethodName: MoveTest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &661705014
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,7 +1718,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707655197}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09d82a2595f1a1d488ffaf1c5519cc17, type: 3}
   m_Name: 
@@ -1666,19 +1726,7 @@ MonoBehaviour:
   globalEvent: {fileID: 11400000, guid: 3386d64b21a37e649a1feff6c6c8144b, type: 2}
   _OnInvoke:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1050789524}
-        m_TargetAssemblyTypeName: Bomb, Assembly-CSharp
-        m_MethodName: ReduceTime
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &736138174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1827,6 +1875,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 707655198}
+  - {fileID: 655453723}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &861704384
@@ -2589,8 +2638,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1050789522}
   - component: {fileID: 1050789523}
-  - component: {fileID: 1050789524}
   - component: {fileID: 1050789525}
+  - component: {fileID: 1050789526}
   m_Layer: 0
   m_Name: Bucket
   m_TagString: Untagged
@@ -2607,7 +2656,7 @@ Transform:
   m_GameObject: {fileID: 1050789518}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -8.318848, z: 90}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.4385774, y: 0.4385774, z: 0.4385774}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2629,22 +2678,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minXPosition: -375
   _maxXPosition: 368
+  _moveSpeed: 30
   _rigidbody: {fileID: 1050789525}
---- !u!114 &1050789524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050789518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f33bac9d82db6b4a8effdfe2b223655, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _timer: {fileID: 1381464884}
-  _timeReduce: 5
-  _gameObject: {fileID: 4898705700639318576, guid: 9a8d15eda6dc81c4aaeb6f0c6c7e5983, type: 3}
 --- !u!50 &1050789525
 Rigidbody2D:
   serializedVersion: 4
@@ -2672,6 +2707,52 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
+--- !u!114 &1050789526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050789518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: cd6a09c0499c70a4bb2d9dc22e1b27ed, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1050789523}
+        m_TargetAssemblyTypeName: BucketMover, Assembly-CSharp
+        m_MethodName: OnMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8b21eb2c-b44e-4f61-9840-22c7f7ef037b
+    m_ActionName: KeyBoard/New action[/Keyboard/a,/Keyboard/d]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Bucket
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &1060901281
 GameObject:
   m_ObjectHideFlags: 0
@@ -4640,6 +4721,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: feb01998f13c23e4e80718124cd2d1e8, type: 2}
   - {fileID: 11400000, guid: 106636d4486957d4294ead4d9be62d45, type: 2}
   - {fileID: 11400000, guid: af318279660ab5343ae8301229d7d703, type: 2}
+  - {fileID: 11400000, guid: 5b602260a20eccd4ebaf6db6fbe1d054, type: 2}
   _viewPrefab: {fileID: 3903132098901272193, guid: 4cd948ae6ea1e1849b3b40ac5eb6b531, type: 3}
 --- !u!1 &2138066739
 GameObject:

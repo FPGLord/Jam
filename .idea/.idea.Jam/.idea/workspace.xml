@@ -5,20 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="747067a3-d0e6-424c-ab93-d1a076d77ef3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BombInteract.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalVector3Event.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalVector3Event.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ananas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Ananas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Apple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Apple.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Banana.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Banana.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Bomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Orange.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Orange.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/VIew.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/VIew.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bomb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bomb.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BombInteract.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BucketMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BucketMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GamePause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimeScaleSetter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GamePause.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimeScaleSetter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Objects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Objects.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalEventHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Ananas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Ananas.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Apple.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Apple.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Banana.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Banana.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Bomb.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Bomb.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Orange.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Orange.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jam.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Jam.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +44,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioClipGlobalEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GamePause.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameRestart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MixerGroupVolumeSetter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,6 +51,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PointsCounterView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SliderValueSetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -59,6 +73,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -135,7 +150,15 @@
       <workItem from="1720073651751" duration="1890000" />
       <workItem from="1720100445477" duration="127000" />
       <workItem from="1720206553047" duration="169000" />
-      <workItem from="1720248317970" duration="747000" />
+      <workItem from="1720248317970" duration="11835000" />
+      <workItem from="1720278414209" duration="2507000" />
+      <workItem from="1720334376174" duration="7498000" />
+      <workItem from="1720767654022" duration="69000" />
+      <workItem from="1720767772105" duration="55000" />
+      <workItem from="1720767850668" duration="5827000" />
+      <workItem from="1720816941268" duration="1669000" />
+      <workItem from="1720856837259" duration="3851000" />
+      <workItem from="1720943170044" duration="5889000" />
     </task>
     <servers />
   </component>

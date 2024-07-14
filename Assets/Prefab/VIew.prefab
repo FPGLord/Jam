@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3135794999135525780}
   - component: {fileID: 5798726787938751133}
   - component: {fileID: 3903132098901272193}
+  - component: {fileID: 758100739099757281}
   m_Layer: 0
   m_Name: VIew
   m_TagString: Untagged
@@ -31,8 +32,8 @@ Transform:
   m_GameObject: {fileID: 6861160257241338125}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3191483, y: 5.277748, z: 0}
-  m_LocalScale: {x: 8, y: 8, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -69,7 +70,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.04899907, y: -0.7809596}
+  m_Offset: {x: -0.04899907, y: -0.7891104}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -80,7 +81,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.6543307, y: 5.880972}
+  m_Size: {x: 5.6543307, y: 5.8972735}
   m_EdgeRadius: 0
 --- !u!50 &7902771239232732884
 Rigidbody2D:
@@ -299,3 +300,31 @@ MonoBehaviour:
   _spriteRenderer: {fileID: 5798726787938751133}
   _data: {fileID: 0}
   _rigidbody: {fileID: 7902771239232732884}
+  _OnViewData:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 758100739099757281}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &758100739099757281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6861160257241338125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f33bac9d82db6b4a8effdfe2b223655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _globalEvent: {fileID: 11400000, guid: 72570df2757dca847bcc17b92ba1ec0a, type: 2}
