@@ -20,4 +20,5 @@ public class GlobalEvent<T> : ScriptableObject
     {
         OnInvoke.Invoke(parameter);
     }
+    
 }

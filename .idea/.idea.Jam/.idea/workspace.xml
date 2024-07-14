@@ -5,34 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="747067a3-d0e6-424c-ab93-d1a076d77ef3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BombInteract.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalVector3Event.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalVector3Event.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalVector3EventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalVector3EventHandler.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ananas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Ananas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Apple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Apple.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Banana.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Banana.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Bomb.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Orange.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Orange.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/VIew.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/VIew.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bomb.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bomb.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BombInteract.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BucketMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BucketMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalEvent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalEventHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Ananas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Ananas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Apple.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Apple.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Banana.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Banana.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Bomb.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Bomb.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Orange.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Orange.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jam.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Jam.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +138,8 @@
       <workItem from="1720767850668" duration="5827000" />
       <workItem from="1720816941268" duration="1669000" />
       <workItem from="1720856837259" duration="3851000" />
-      <workItem from="1720943170044" duration="5889000" />
+      <workItem from="1720943170044" duration="6680000" />
+      <workItem from="1720956396475" duration="4168000" />
     </task>
     <servers />
   </component>

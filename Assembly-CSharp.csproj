@@ -52,6 +52,7 @@
     <Compile Include="Assets\Scripts\SliderValueSetter.cs" />
     <Compile Include="Assets\Scripts\GameRestart.cs" />
     <Compile Include="Assets\Scripts\AudioClipGlabalEventHandler.cs" />
+    <Compile Include="Assets\Scripts\GlobalVector3EventHandler.cs" />
     <Compile Include="Assets\Scripts\GlobalEventHandler.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\CollisionTrigger.cs" />
