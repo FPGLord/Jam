@@ -1,17 +1,18 @@
 
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 public class GameRestart : MonoBehaviour
 {
-   [SerializeField] private PointsCounter _pointsCounter;
+   [FormerlySerializedAs("_pointsCounter")] [SerializeField] private IntStorage intStorage;
    [SerializeField] private Timer _timer;
    
    
    public void RestartGame()
    {
       Time.timeScale = 1;
-      _pointsCounter.PointsAmount = 0;
+      intStorage.Value = 0;
       _timer.TimeStart = 60;
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
    }

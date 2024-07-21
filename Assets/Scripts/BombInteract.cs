@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class BombInteract : MonoBehaviour
@@ -13,8 +14,14 @@ public class BombInteract : MonoBehaviour
     {
         if (!enabled)
             return;
-
-        _globalEvent.Invoke(transform.position);
         
+        _globalEvent.Invoke(transform.position);
+        StartCoroutine(Disable());
+    }
+
+   private IEnumerator Disable()
+    {
+        yield return new WaitForSeconds(2f);
+        gameObject.SetActive(false);
     }
 }

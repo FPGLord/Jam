@@ -48,7 +48,9 @@
     <Compile Include="Assets\Scripts\MixerGroupVolumeSetter.cs" />
     <Compile Include="Assets\Scripts\TimeScaleSetter.cs" />
     <Compile Include="Assets\Scripts\View.cs" />
+    <Compile Include="Assets\Scripts\IntStorage.cs" />
     <Compile Include="Assets\Scripts\GlobalVector3Event.cs" />
+    <Compile Include="Assets\Scripts\GlobalFruitEventHandler.cs" />
     <Compile Include="Assets\Scripts\SliderValueSetter.cs" />
     <Compile Include="Assets\Scripts\GameRestart.cs" />
     <Compile Include="Assets\Scripts\AudioClipGlabalEventHandler.cs" />
@@ -56,8 +58,8 @@
     <Compile Include="Assets\Scripts\GlobalEventHandler.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\CollisionTrigger.cs" />
+    <Compile Include="Assets\Scripts\ViewDataComparer.cs" />
     <Compile Include="Assets\Scripts\BucketMover.cs" />
-    <Compile Include="Assets\Scripts\PointsCounter.cs" />
     <Compile Include="Assets\Scripts\GlobalEvent.cs" />
     <Compile Include="Assets\Scripts\AudioClipGlobalEvent.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />

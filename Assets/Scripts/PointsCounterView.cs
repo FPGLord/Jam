@@ -1,26 +1,27 @@
-using System;
+
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PointsCounterView : MonoBehaviour
 {
-    [SerializeField] private PointsCounter _pointsCounter;
+    [FormerlySerializedAs("_pointsCounter")] [SerializeField] private IntStorage intStorage;
     [SerializeField] private TextMeshProUGUI _textView;
    
     
 
     private void OnEnable()
     {
-        _pointsCounter.onValueChange += UpdateText;
+        intStorage.onValueChange += UpdateText;
     }
 
     private void OnDisable()
     {
-        _pointsCounter.onValueChange -= UpdateText;
+        intStorage.onValueChange -= UpdateText;
     }
 
     private void UpdateText()
     {
-           _textView.text = $"{_pointsCounter.PointsAmount}";
+           _textView.text = $"{intStorage.Value}";
     }
 }
