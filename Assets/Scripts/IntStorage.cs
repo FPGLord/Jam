@@ -1,13 +1,11 @@
 using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-
-public class IntStorage : ScriptableObject
+public class IntStorage: ScriptableObject
 {
+    [SerializeField] private int _value;
     public event Action onValueChange;
-        
-   [FormerlySerializedAs("_vaule")] [FormerlySerializedAs("_pointsAmount")] [SerializeField] private int _value;
+
 
    public int Value
    {
@@ -16,9 +14,9 @@ public class IntStorage : ScriptableObject
    }
    
     
-    public void Add()
+    public void Add(Data data)
     {
-        _value++;
+        _value += data.points;
         onValueChange?.Invoke();
     }
     

@@ -5,28 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="747067a3-d0e6-424c-ab93-d1a076d77ef3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalFruitEventHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalFruitEventHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ViewDataComparer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ViewDataComparer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameTime.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bucket.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Bucket.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/VIew.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/VIew.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BombInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BombInteract.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BucketMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BucketMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollisionTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollisionTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameRestart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameRestart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalEvents/OnBombCollision.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalEvents/OnBombCollision.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalVector3EventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalVector3EventHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointsCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntStorage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointsCounter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntStorage.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointsCounterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PointsCounterView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/PointsCounter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/PointsCounter.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntStorage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointsCounterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntStorageView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointsCounterView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntStorageView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Ananas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Ananas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Apple.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Apple.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Banana.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Banana.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Bomb.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Bomb.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Orange.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Orange.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/PointsCounter.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/PointsCounter.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewDataComparer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewDataComparer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebGL/Build/WebGL.data.br" beforeDir="false" afterPath="$PROJECT_DIR$/WebGL/Build/WebGL.data.br" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebGL/Build/WebGL.framework.js.br" beforeDir="false" afterPath="$PROJECT_DIR$/WebGL/Build/WebGL.framework.js.br" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebGL/Build/WebGL.wasm.br" beforeDir="false" afterPath="$PROJECT_DIR$/WebGL/Build/WebGL.wasm.br" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebGL/WebGL.zip" beforeDir="false" afterPath="$PROJECT_DIR$/WebGL/WebGL.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +171,14 @@
       <workItem from="1721210079687" duration="659000" />
       <workItem from="1721383253146" duration="61000" />
       <workItem from="1721398749369" duration="98000" />
-      <workItem from="1721548042187" duration="5368000" />
+      <workItem from="1721548042187" duration="5837000" />
+      <workItem from="1721570917461" duration="4817000" />
+      <workItem from="1721588816099" duration="4824000" />
+      <workItem from="1721593714138" duration="811000" />
+      <workItem from="1721736705133" duration="523000" />
+      <workItem from="1722023379284" duration="96000" />
+      <workItem from="1722066524554" duration="4669000" />
+      <workItem from="1722525460225" duration="1128000" />
     </task>
     <servers />
   </component>

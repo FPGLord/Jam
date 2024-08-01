@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Ananas
   m_EditorClassIdentifier: 
   <sprite>k__BackingField: {fileID: 21300000, guid: cb7bc2065d9a4c74fac9bbf9c6de2a92, type: 3}
-  <points>k__BackingField: 0
+  <points>k__BackingField: 1
   <fallSpeed>k__BackingField: 9
   <spawnChance>k__BackingField: 8
+  <isInteractable>k__BackingField: 0

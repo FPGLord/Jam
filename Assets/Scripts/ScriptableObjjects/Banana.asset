@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Banana
   m_EditorClassIdentifier: 
   <sprite>k__BackingField: {fileID: 21300000, guid: 7783b69433cbe2048ade44d66ce83df2, type: 3}
-  <points>k__BackingField: 0
+  <points>k__BackingField: 3
   <fallSpeed>k__BackingField: 9
   <spawnChance>k__BackingField: 7
+  <isInteractable>k__BackingField: 0

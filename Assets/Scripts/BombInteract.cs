@@ -4,10 +4,10 @@ using UnityEngine;
 public class BombInteract : MonoBehaviour
 {
     [SerializeField] private GlobalVector3Event _globalEvent;
-    
-
+   
     private void Start()
     {
+       
     }
 
     private void OnMouseDown()
@@ -24,4 +24,6 @@ public class BombInteract : MonoBehaviour
         yield return new WaitForSeconds(2f);
         gameObject.SetActive(false);
     }
+
+    
 }
