@@ -1,19 +1,10 @@
 using System;
-using UnityEngine;
 
-public class IntStorage: ScriptableObject
+
+public class IntStorage: ValueStorage<int>
 {
-    [SerializeField] private int _value;
     public event Action onValueChange;
-
-
-   public int Value
-   {
-       get => _value;
-       set => _value = value;
-   }
-   
-    
+ 
     public void Add(Data data)
     {
         _value += data.points;

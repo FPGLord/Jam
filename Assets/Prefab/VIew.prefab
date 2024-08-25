@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f3af49186023dc45b077e854ed02e6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onTrigger:
+  _onTriggerEnter:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6861160257241338125}
@@ -328,3 +328,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _globalEvent: {fileID: 11400000, guid: 72570df2757dca847bcc17b92ba1ec0a, type: 2}
+  _isInputActive: {fileID: 11400000, guid: 57ea8d8a04545d7488c2908e6340d4ce, type: 2}

@@ -5,32 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="747067a3-d0e6-424c-ab93-d1a076d77ef3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameTime.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameTime.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BoolStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BoolStorage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameObjectDisabler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameObjectDisabler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InputActivator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InputActivator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ValueStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ValueStorage.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ananas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ananas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Apple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Apple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Banana.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Banana.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bomb.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bomb.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Orange.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Orange.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/VIew.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/VIew.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BombInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BombInteract.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameRestart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameRestart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BucketMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BucketMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollisionTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerEnter2DHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollisionTrigger.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerEnter2DHandler.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntStorage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointsCounterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntStorageView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointsCounterView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntStorageView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Ananas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Ananas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Apple.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Apple.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Banana.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Banana.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Bomb.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Bomb.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Orange.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/Orange.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/PointsCounter.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/PointsCounter.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/IntStorage.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjjects/IntStorage.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewDataComparer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewDataComparer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebGL/Build/WebGL.data.br" beforeDir="false" afterPath="$PROJECT_DIR$/WebGL/Build/WebGL.data.br" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebGL/Build/WebGL.framework.js.br" beforeDir="false" afterPath="$PROJECT_DIR$/WebGL/Build/WebGL.framework.js.br" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebGL/Build/WebGL.wasm.br" beforeDir="false" afterPath="$PROJECT_DIR$/WebGL/Build/WebGL.wasm.br" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebGL/WebGL.zip" beforeDir="false" afterPath="$PROJECT_DIR$/WebGL/WebGL.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jam.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Jam.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,29 +70,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Lord\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Lord\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Lord\\AppData\\Local\\Symbols\\src&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Build_x64\Jam.exe" />
@@ -178,7 +178,21 @@
       <workItem from="1721736705133" duration="523000" />
       <workItem from="1722023379284" duration="96000" />
       <workItem from="1722066524554" duration="4669000" />
-      <workItem from="1722525460225" duration="1128000" />
+      <workItem from="1722525460225" duration="5477000" />
+      <workItem from="1722760099787" duration="509000" />
+      <workItem from="1722767364470" duration="5234000" />
+      <workItem from="1723314241480" duration="155000" />
+      <workItem from="1723314425039" duration="39000" />
+      <workItem from="1723314496407" duration="84000" />
+      <workItem from="1723394925316" duration="1500000" />
+      <workItem from="1723403689670" duration="67000" />
+      <workItem from="1723403773550" duration="27000" />
+      <workItem from="1724356682950" duration="87000" />
+      <workItem from="1724397381843" duration="204000" />
+      <workItem from="1724431361835" duration="504000" />
+      <workItem from="1724526211092" duration="811000" />
+      <workItem from="1724575961132" duration="4955000" />
+      <workItem from="1724611260193" duration="194000" />
     </task>
     <servers />
   </component>
@@ -193,6 +207,7 @@
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

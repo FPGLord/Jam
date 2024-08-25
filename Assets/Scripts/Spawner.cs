@@ -1,5 +1,7 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
 
 public class Spawner : MonoBehaviour
@@ -7,32 +9,28 @@ public class Spawner : MonoBehaviour
     [SerializeField] private Transform[] _spawnPoints;
     [SerializeField] private Data[] _data;
     [SerializeField] private View _viewPrefab;
+    [SerializeField] private int _maxObjectsCount;
 
-    private float spawnSum;
+    private List<View> _objectsPool = new();
+    private float _spawnChancesSum;
 
 
     private void Start()
     {
+        Instantiate();
         SumSpawnChances();
         StartCoroutine(SpawnCoroutine());
     }
 
 
-    public void Spawn()
+    public void Instantiate()
     {
-        float randomValue = Random.Range(0, spawnSum);
-        float temp = 0;
-       
-        for (int i = 0; i < _data.Length; i++)
+        for (var i = 0; i < _data.Length; i++)
         {
-            if (randomValue <= _data[i].spawnChance)
-            {
-                int randomSpawnPoint = Random.Range(0, _spawnPoints.Length);
-                View newView = Instantiate(_viewPrefab, _spawnPoints[randomSpawnPoint].transform.position,
-                    Quaternion.identity);
-                newView.ViewData(_data[i]);
-            }
-            temp += _data[i].spawnChance;
+            View newView = Instantiate(_viewPrefab);
+            newView.ViewData(_data[i]);
+            _objectsPool.Add(newView);
+            newView.SetActive(false);
         }
     }
 
@@ -40,7 +38,7 @@ public class Spawner : MonoBehaviour
     {
         foreach (var item in _data)
         {
-            spawnSum += item.spawnChance;
+            _spawnChancesSum += item.spawnChance;
         }
     }
 
@@ -50,6 +48,27 @@ public class Spawner : MonoBehaviour
         {
             Spawn();
             yield return new WaitForSeconds(1f);
+        }
+    }
+
+    private void Spawn()
+    {
+        var randomValue = Random.Range(0, _spawnChancesSum);
+
+        int objectsCount = Random.Range(0, _maxObjectsCount);
+
+        while (_objectsPool.Count < _maxObjectsCount)
+        {
+            Instantiate();
+        }
+
+
+        for (int i = 0; i < objectsCount; i++)
+        {
+            int randomSpawnPoint = Random.Range(0, _spawnPoints.Length);
+            _objectsPool[0].SetPosition(_spawnPoints[randomSpawnPoint].transform.position);
+            _objectsPool[0].SetActive(true);
+            _objectsPool.Remove(_objectsPool[0]);
         }
     }
 }

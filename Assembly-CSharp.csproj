@@ -45,26 +45,30 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.35f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\TriggerEnter2DHandler.cs" />
     <Compile Include="Assets\Scripts\MixerGroupVolumeSetter.cs" />
     <Compile Include="Assets\Scripts\TimeScaleSetter.cs" />
     <Compile Include="Assets\Scripts\View.cs" />
     <Compile Include="Assets\Scripts\IntStorage.cs" />
     <Compile Include="Assets\Scripts\GlobalVector3Event.cs" />
     <Compile Include="Assets\Scripts\GlobalFruitEventHandler.cs" />
+    <Compile Include="Assets\Scripts\InputActivator.cs" />
     <Compile Include="Assets\Scripts\SliderValueSetter.cs" />
     <Compile Include="Assets\Scripts\GameRestart.cs" />
     <Compile Include="Assets\Scripts\AudioClipGlabalEventHandler.cs" />
     <Compile Include="Assets\Scripts\GlobalVector3EventHandler.cs" />
     <Compile Include="Assets\Scripts\GlobalEventHandler.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
-    <Compile Include="Assets\Scripts\CollisionTrigger.cs" />
     <Compile Include="Assets\Scripts\ViewDataComparer.cs" />
     <Compile Include="Assets\Scripts\BucketMover.cs" />
+    <Compile Include="Assets\Scripts\BoolStorage.cs" />
     <Compile Include="Assets\Scripts\GlobalEvent.cs" />
+    <Compile Include="Assets\Scripts\ValueStorage.cs" />
     <Compile Include="Assets\Scripts\AudioClipGlobalEvent.cs" />
     <Compile Include="Assets\Scripts\GameTime.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\GameExit.cs" />
+    <Compile Include="Assets\Scripts\GameObjectDisabler.cs" />
     <Compile Include="Assets\Scripts\Data.cs" />
     <Compile Include="Assets\Keybord Controls.cs" />
     <Compile Include="Assets\Scripts\BombInteract.cs" />
