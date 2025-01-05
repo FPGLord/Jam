@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
 
 public class Spawner : MonoBehaviour
@@ -12,16 +11,14 @@ public class Spawner : MonoBehaviour
     [SerializeField] private int _maxObjectsCount;
 
     private List<View> _objectsPool = new();
-    private float _spawnChancesSum;
-
-
+         private float _spawnChancesSum;
+   
     private void Start()
     {
         Instantiate();
         SumSpawnChances();
         StartCoroutine(SpawnCoroutine());
     }
-
 
     public void Instantiate()
     {
@@ -53,7 +50,7 @@ public class Spawner : MonoBehaviour
 
     private void Spawn()
     {
-        var randomValue = Random.Range(0, _spawnChancesSum);
+        //  var randomValue = Random.Range(0, _spawnChancesSum);
 
         int objectsCount = Random.Range(0, _maxObjectsCount);
 
@@ -70,5 +67,11 @@ public class Spawner : MonoBehaviour
             _objectsPool[0].SetActive(true);
             _objectsPool.Remove(_objectsPool[0]);
         }
+        
+    }
+
+    public void ReturnToObjectPool(View gameObject)
+    {
+        _objectsPool.Add(gameObject);
     }
 }

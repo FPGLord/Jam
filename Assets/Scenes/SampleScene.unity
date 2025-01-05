@@ -1122,6 +1122,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f2c0f5ffe44a8f8c737d773ffbd989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _OnPoolReturn:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2048885802}
+        m_TargetAssemblyTypeName: Spawner, Assembly-CSharp
+        m_MethodName: ReturnToObjectPool
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &334508104
 MonoBehaviour:
   m_ObjectHideFlags: 0

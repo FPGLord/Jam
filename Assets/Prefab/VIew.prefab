@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3965854175162722045}
   - component: {fileID: 6890715396857688677}
   - component: {fileID: 7902771239232732884}
-  - component: {fileID: 8306971306706524699}
   - component: {fileID: 3135794999135525780}
   - component: {fileID: 5798726787938751133}
   - component: {fileID: 3903132098901272193}
@@ -32,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 6861160257241338125}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 317.26895, y: 683.5726, z: -0.7122421}
   m_LocalScale: {x: 6, y: 6, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -110,33 +109,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8306971306706524699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6861160257241338125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f3af49186023dc45b077e854ed02e6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _onTriggerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6861160257241338125}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!82 &3135794999135525780
 AudioSource:
   m_ObjectHideFlags: 0
